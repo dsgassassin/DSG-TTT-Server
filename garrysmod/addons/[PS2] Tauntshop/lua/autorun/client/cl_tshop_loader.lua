@@ -1,0 +1,7 @@
+include("tauntshop_config.lua")
+include("tauntshop_meta.lua")
+include("tauntshop_fonts.lua")
+include("vgui/tauntshop/frame.lua")
+include("vgui/tauntshop/frame_canvas.lua")
+include("vgui/tauntshop/taunt_entry.lua")
+include("vgui/tauntshop/menu_pages.lua")

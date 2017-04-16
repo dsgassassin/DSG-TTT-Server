@@ -1,0 +1,1 @@
+print("Midnight Scoreboard version 1.0.2 loaded.")

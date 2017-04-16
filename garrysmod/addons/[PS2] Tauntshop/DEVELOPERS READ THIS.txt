@@ -1,0 +1,27 @@
+DEVELOPERS READ THIS
+
+These are the hooks you can use to manipulate the taunt addon behavior
+
+SHARED (THIS NEEDS TO BE THE SAME BOTH ON THE SERVER AND ON THE CLIENT)
+
+	TauntDonorCheck
+	
+	FUNCTION ARGUMENTS: Player
+	
+	Return true if you want to let the player buy and use donator-only taunt, return false to keep them locked
+	
+SERVER
+	
+	PlayerTauntDelay
+	
+	FUNCTION ARGUMENTS: Player
+	
+	Allows you to specify a custom taunt delay time, returns a number (the delay)
+	-------------------------------------------------------------------------------------
+	
+	CanPlayerPlayTaunt
+	
+	FUNCTION ARGUMENTS: Player
+	
+	Return true to allow the player play the taunt, return false to deny him
+	

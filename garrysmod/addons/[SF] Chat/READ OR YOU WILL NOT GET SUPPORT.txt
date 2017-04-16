@@ -1,0 +1,9 @@
+Want help? Follow this guide or your ticket will instantly be closed.
+
+1. Go to .. and open a ticket
+2. Provide a descriptive, but brief title of the problem you are having
+3. Describe your problem, include a client console log and a server console log, as well as a list of addons, and whatever gamemode you are running.
+4. Wait 1-3 days for a reply. Generally I'm busy with doing real life shit, I'm not a machine, so don't be offended by me not answering your ticket straight away
+5. Close the ticket when the problem is solved
+
+IF YOU DO NOT FOLLOW THIS GUIDE I WILL IGNORE YOU!!!!

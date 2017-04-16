@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"TauntShop"
+	"version"			"1.2"
+	"up_date"			""
+	"author_name"			"Loures"
+	"author_email"			""
+	"author_url"			"www.coderhire.com"
+	"info"				""
+	"override"			"0"
+}

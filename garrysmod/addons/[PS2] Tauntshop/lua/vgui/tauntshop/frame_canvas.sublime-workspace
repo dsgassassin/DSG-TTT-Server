@@ -1,0 +1,523 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"PushFi",
+				"render.PushFilterMag"
+			],
+			[
+				"surface",
+				"surface.SetDrawColor"
+			],
+			[
+				"Beb",
+				"BebasNeue5"
+			],
+			[
+				"B",
+				"BebasNeue5"
+			],
+			[
+				"Bebas",
+				"BebasNeue4"
+			],
+			[
+				"Cs",
+				"CSay"
+			],
+			[
+				"Regis",
+				"RegisterRank"
+			],
+			[
+				"SetWeapo",
+				"SetWeaponHoldType"
+			],
+			[
+				"Broad",
+				"BroadcastPlayer"
+			],
+			[
+				"PopFi",
+				"render.PopFilterMin"
+			],
+			[
+				"Mani",
+				"ManipulateBonePosition"
+			],
+			[
+				"admin",
+				"adminmod"
+			],
+			[
+				"player",
+				"player_connect"
+			],
+			[
+				"Receive",
+				"net.Receive"
+			],
+			[
+				"ReadTabl",
+				"net.ReadTable"
+			],
+			[
+				"conco",
+				"concommand.Add"
+			],
+			[
+				"end",
+				"end	end"
+			],
+			[
+				"Plugin",
+				"Plugins"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"gmod",
+				"Set Syntax: Gmod Lua"
+			],
+			[
+				"Snippet: ",
+				"Snippet: hook.Add()"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/data/playedmaps.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/mapvote/lua/sv_mapvote.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/server.cfg",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/teleport.lua",
+		"/M/DA POSizIONARE/Native.Instruments.Reaktor.5.v5.9.0.Update-R2R/R2R.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/lua/testfunc.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/adminmod/lua/admin_framework.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/adminmod/lua/cl_admin_framework.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/adminmod/lua/admin_plugins/jail.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/adminmod/lua/admin_plugins/freeze.lua",
+		"/C/Users/Lorenzo/Dropbox/mystuff.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/mapvote/lua/autorun/loader.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/init.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/jail.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/admin_framework.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/cl_init.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_improvised.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_stungun.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_push.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/adminmod/lua/admin_plugins/chat.lua",
+		"/C/Users/Lorenzo/Desktop/Development/tauntshop/lua/db.lua",
+		"/C/Users/Lorenzo/Documents/topman.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/mapvote/addon.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/adminmod/addon.txt",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/rank.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/cl_admin_framework.lua",
+		"/C/Users/Lorenzo/Dropbox/Public/loadingurl/loading.css",
+		"/C/Users/Lorenzo/Desktop/sublime.reg",
+		"/C/Users/Lorenzo/Desktop/sublime.txt",
+		"/C/Users/Lorenzo/Desktop/LOURES SERVERS/Terrortown/testo.txt",
+		"/C/Users/Lorenzo/Dropbox/Public/loadingurl/loading.html",
+		"/C/Users/Lorenzo/Desktop/LOURES SERVERS/Terrortown/the brown fox jumped over the quyick bron dog.txt",
+		"/C/Users/Lorenzo/Desktop/adminmod/lua/admin_plugins/ban.lua",
+		"/C/Users/Lorenzo/Desktop/LOURES SERVERS/loadingurl/loading.css",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/loading.css",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/loading.html",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/config.txt",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/cvar.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/slayqueue.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/helldeaths.lua",
+		"/C/Users/Lorenzo/Desktop/LOURES SERVERS/loadingurl/loading.html",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/.exclude",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.957/style.css",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/player_ext.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/init.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/traitor_state.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/gamemsg.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/L0822025.log",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/dmsg.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/sb_row.lua",
+		"/C/Users/Lorenzo/Desktop/ttt_deathbadge/lua/autorun/dmsg.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/lua/includes/util.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/player_ext_shd.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/vgui/sb_row.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/corpse.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/scoring.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/player.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/ttt_deathbadge/lua/autorun/dmsg.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/ttt_weapon_placer_119928922/lua/weapons/gmod_tool/stools/tttweaponplacer.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/data/ttt/maps/de_district23_ttt.txt",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/sv_mapvote.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/mapvote.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/prop.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/gotobring.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/chat.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/gamemode/vgui/sb_main.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/ttt_deathbadge/addon.json",
+		"/C/Users/Lorenzo/Desktop/Development/tauntshop/addon.txt",
+		"/C/Users/Lorenzo/Desktop/dmsg/lua/autorun/dmsg.lua",
+		"/C/Users/Lorenzo/Desktop/dmsg/addon.txt",
+		"/C/Users/Lorenzo/Dropbox/Public/Lua Files/death_taunt.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/ranks.txt",
+		"/C/Users/Lorenzo/Desktop/Development/terrortown/gamemode/player.lua",
+		"/C/Users/Lorenzo/Desktop/tacoscript/info.txt",
+		"/C/Users/Lorenzo/Desktop/tacoscript/entities/weapons/weapon_ts_godhand/businessitemdrops.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/lua/menu/menu.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/lua/menu/menutest.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/lua/includes/modules/sourcenetinfo.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.910/resources.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.600/tacoscript2.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.775/init.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.629/chatlog.txt",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.431/rplol.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.376/help.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.496/admincc.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.738/changelog.txt",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.792/main.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.380/info.txt",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.109/README.TXT",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.253/sv_tauntshop.lua",
+		"/C/Users/Lorenzo/Desktop/adminmod/lua/admin_framework.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DIa0.801/dmsg.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/misc.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/sandbox/entities/effects/prop.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-2/admin_framework.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-2/prop.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-2/misc.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/sandbox/entities/effects/propspawn.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/sandbox/gamemode/init.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/sandbox/gamemode/commands.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/sandbox/gamemode/prop_tools.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/weapons/weapon_tttbasegrenade.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_confgrenade.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_confgrenade_proj.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_basegrenade_proj.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_firegrenade_proj.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_smokegrenade_proj.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_smokegrenade.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DRa0.969/wp_smoke/shared.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DRa0.969/wp_smoke/init.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/Rar$DRa0.969/wp_smoke/cl_init.lua",
+		"/C/Users/Lorenzo/Desktop/Development/terrortown/entities/entities/ttt_smokegrenade_proj.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_smokegrenade_proj/init.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_smokegrenade_proj/shared.lua",
+		"/C/Users/Lorenzo/Dropbox/Public/hac.lua",
+		"/C/Users/Lorenzo/Dropbox/Public/what.cd.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/data/adminmod/bans.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/adminmod/lua/admin_plugins/ban.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-3/ban.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_smokegrenade_proj/cl_init.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_traitor_button/init.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_traitor_button/shared.lua",
+		"/C/Users/Lorenzo/Desktop/Development/terrortown/entities/weapons/weapon_ttt_smokegrenade.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/gamemodes/terrortown/entities/entities/ttt_c4/shared.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/adminmod/lua/admin_plugins/mute.lua",
+		"/C/Program Files (x86)/Steam/SteamApps/common/GarrysMod/garrysmod/addons/adminmod/lua/admin_plugins/teleport.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/cl_equip.lua",
+		"/C/Users/Lorenzo/AppData/Local/Temp/fz3temp-1/weapon_ttt_knife.lua"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Lorenzo\\Desktop\\tauntshop\\lua",
+			"C:\\Users\\Lorenzo\\Desktop\\adminmod",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes\\terrortown\\",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes\\terrortown\\gamemode",
+			"C:\\Users\\Lorenzo\\Desktop\\tacoscript,C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes\\terrortown\\gamemode",
+			"C:\\Users\\Lorenzo\\Desktop\\tacoscript,C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes\\terrortown\\gamemodeS",
+			"C:\\Users\\Lorenzo\\Desktop\\tacoscript",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes/sandbox",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\addons\\ttt_tripmine",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes\\terrortown\\",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes\\terrortown\\entities",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes\\terrortown\\gamemode",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\addons\\ttt_tripmine\\lua",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes\\terrortown\\gamemode",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\addons\\AdminMod\\lua",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\addons\\AdminMod",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\gamemodes\\terrortown\\gamemode",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\maps,ttt_*.bsp",
+			"C:\\Program Files (x86)\\Steam\\SteamApps\\common\\GarrysMod\\garrysmod\\maps"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"resource",
+			"target",
+			"fence(\\d):",
+			"fence(\\d) = ",
+			"fence(\\d)",
+			"fence(\\d)\n",
+			")\n",
+			"BroadcastPlayer",
+			"player",
+			"broadcast",
+			"join",
+			"em",
+			"</p>",
+			"vw",
+			"HTML",
+			"vw",
+			"ResetStatus",
+			"SetRole",
+			"TTTEndRound",
+			"SendTraitor",
+			"GetFilter",
+			"Send",
+			"CustomMsg",
+			"AccessorFunc",
+			"GetRole",
+			"plymeta:GetRole",
+			"GetROle",
+			"function GetRole",
+			"GetRole",
+			"IsTraitor",
+			"Color",
+			"TTTBodyFound",
+			"Search",
+			"HandleKill",
+			"PlayerDeath",
+			"mumbles",
+			"GetInnocentFilter",
+			"SendConfirmedTraitors",
+			"ttt/maps",
+			"print",
+			"holder",
+			", net.ReadInt()",
+			"STEAM_",
+			"STEAM",
+			"DoPropSpawned",
+			"prop",
+			".bsp",
+			"[18:19:58] PENDING:   (fs) ",
+			"spark",
+			"sound",
+			"remove",
+			"initialize",
+			"health",
+			"print",
+			"not",
+			"lower",
+			"resource.",
+			"icon_",
+			"print(aaaaa\naaaaa\nprint(\"aaaaa\")",
+			"print(",
+			"print",
+			"cam",
+			"cam.start",
+			"DPanel",
+			"print",
+			"deploy",
+			"viewmodel",
+			")\n",
+			"Ammo",
+			"ammotype",
+			"bullet",
+			"fire",
+			"bullet",
+			"SuppressEngineLighting",
+			")\n",
+			"getworld",
+			"print",
+			"Nick",
+			"Error",
+			"broadcast",
+			"print",
+			"\")\n",
+			"print",
+			"call",
+			"function RANK:SetPrivilege(privilege)\n	self.privilege = privilege\nend\n",
+			"os.time",
+			"target",
+			"takedamage",
+			"create",
+			"DecodePlayer",
+			"2",
+			"()\n",
+			"print",
+			"find",
+			"\")\n",
+			")\n",
+			"ver",
+			"latest",
+			"ver",
+			"0",
+			"1",
+			"ttt_*.bsp",
+			"EyePos",
+			"support.function.library.lu",
+			"italic",
+			"italics",
+			"BOLD",
+			"ffffffffffffffffffffffffffffffffffffffffffffffffffff",
+			"ffffffffffffffffffffffffffff",
+			"color"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"ply",
+			"ply.Jail[\\1]",
+			"vw",
+			"</span>",
+			"em",
+			"vh",
+			"",
+			"SteamID"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "frame_canvas.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
