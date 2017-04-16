@@ -1,5 +1,5 @@
 -- This module holds any type of remote execution functions (IE, 'dangerous')
-local CATEGORY_NAME = "Rcon"
+local CATEGORY_NAME = "Developer Functions"
 
 function ulx.rcon( calling_ply, command )
 	ULib.consoleCommand( command .. "\n" )

@@ -40,49 +40,6 @@ asay:addParam{ type=ULib.cmds.StringArg, hint="message", ULib.cmds.takeRestOfLin
 asay:defaultAccess( ULib.ACCESS_ALL )
 asay:help( "Send a message to currently connected admins." )
 
------------------------------- Tsay ------------------------------
-function ulx.tsay( calling_ply, message )
-	ULib.tsay( _, message )
-
-	if ULib.toBool( GetConVarNumber( "ulx_logChat" ) ) then
-		ulx.logString( string.format( "(tsay from %s) %s", calling_ply:IsValid() and calling_ply:Nick() or "Console", message ) )
-	end
-end
-local tsay = ulx.command( CATEGORY_NAME, "ulx tsay", ulx.tsay, "@@", true, true )
-tsay:addParam{ type=ULib.cmds.StringArg, hint="message", ULib.cmds.takeRestOfLine }
-tsay:defaultAccess( ULib.ACCESS_ADMIN )
-tsay:help( "Send a message to everyone in the chat box." )
-
------------------------------- Csay ------------------------------
-function ulx.csay( calling_ply, message )
-	ULib.csay( _, message )
-
-	if ULib.toBool( GetConVarNumber( "ulx_logChat" ) ) then
-		ulx.logString( string.format( "(csay from %s) %s", calling_ply:IsValid() and calling_ply:Nick() or "Console", message ) )
-	end
-end
-local csay = ulx.command( CATEGORY_NAME, "ulx csay", ulx.csay, "@@@", true, true )
-csay:addParam{ type=ULib.cmds.StringArg, hint="message", ULib.cmds.takeRestOfLine }
-csay:defaultAccess( ULib.ACCESS_ADMIN )
-csay:help( "Send a message to everyone in the middle of their screen." )
-
------------------------------- Thetime ------------------------------
-local waittime = 60
-local lasttimeusage = -waittime
-function ulx.thetime( calling_ply )
-	if lasttimeusage + waittime > CurTime() then
-		ULib.tsayError( calling_ply, "I just told you what time it is! Please wait " .. waittime .. " seconds before using this command again", true )
-		return
-	end
-
-	lasttimeusage = CurTime()
-	ulx.fancyLog( "The time is now #s.", os.date( "%I:%M %p") )
-end
-local thetime = ulx.command( CATEGORY_NAME, "ulx thetime", ulx.thetime, "!thetime" )
-thetime:defaultAccess( ULib.ACCESS_ALL )
-thetime:help( "Shows you the server time." )
-
-
 ------------------------------ Adverts ------------------------------
 ulx.adverts = ulx.adverts or {}
 local adverts = ulx.adverts -- For XGUI, too lazy to change all refs
@@ -145,44 +102,6 @@ function ulx.addAdvert( message, rpt, group, color, len )
 		timer.Create( "ULXAdvert" .. type( group ) .. group, rpt, 1, function() doAdvert( group, id ) end )
 	end
 end
-
------------------------------- Gimp ------------------------------
-ulx.gimpSays = ulx.gimpSays or {} -- Holds gimp says
-local gimpSays = ulx.gimpSays -- For XGUI, too lazy to change all refs
-local ID_GIMP = 1
-local ID_MUTE = 2
-
-function ulx.addGimpSay( say )
-	table.insert( gimpSays, say )
-end
-
-function ulx.clearGimpSays()
-	table.Empty( gimpSays )
-end
-
-function ulx.gimp( calling_ply, target_plys, should_ungimp )
-	for i=1, #target_plys do
-		local v = target_plys[ i ]
-		if should_ungimp then
-			v.gimp = nil
-		else
-			v.gimp = ID_GIMP
-		end
-		v:SetNWBool("ulx_gimped", not should_ungimp)
-	end
-
-	if not should_ungimp then
-		ulx.fancyLogAdmin( calling_ply, "#A gimped #T", target_plys )
-	else
-		ulx.fancyLogAdmin( calling_ply, "#A ungimped #T", target_plys )
-	end
-end
-local gimp = ulx.command( CATEGORY_NAME, "ulx gimp", ulx.gimp, "!gimp" )
-gimp:addParam{ type=ULib.cmds.PlayersArg }
-gimp:addParam{ type=ULib.cmds.BoolArg, invisible=true }
-gimp:defaultAccess( ULib.ACCESS_ADMIN )
-gimp:help( "Gimps target(s) so they are unable to chat normally." )
-gimp:setOpposite( "ulx ungimp", {_, _, true}, "!ungimp" )
 
 ------------------------------ Mute ------------------------------
 function ulx.mute( calling_ply, target_plys, should_unmute )

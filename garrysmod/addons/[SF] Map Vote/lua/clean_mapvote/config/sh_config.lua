@@ -3,7 +3,7 @@ local cfg = CMV.Config
 
 cfg.AutoPrefix = true -- Grab prefixes for gamemodes automatically
 cfg.Prefixes = { -- If enabled, prefixes will be grabbed from the table.  Do not enable at the same time as AutoPrefix
-    "gm_"
+    "ttt_"
 }
 
 cfg.BlacklistMaps = { -- Maps with the proper prefix that are not wanted in the pool
@@ -15,8 +15,8 @@ cfg.ExtraMaps = { -- Maps with different prefixes that are wanted in the map poo
 }
 
 cfg.ExtendMap = false -- Allow for the map to be extended
-cfg.MapAmount = 8 -- Amount of maps in vote.  Please note, only input even numbers, or there will be errors
-cfg.Cooldown = 3 -- Amount of maps before a map can be played again
+cfg.MapAmount = 16 -- Amount of maps in vote.  Please note, only input even numbers, or there will be errors
+cfg.Cooldown = 4 -- Amount of maps before a map can be played again
 
 cfg.VoteTime = 30 -- The amount of time in which the voting occurs
 cfg.PostVoteTime = 5 -- The amount of time after the voting before the map changes
@@ -30,10 +30,10 @@ cfg.RTVAmount = 2/3 -- Amount required to successfully rock the vote
 
 -- Set votes per rank here
 cfg.VotePower = {}
-cfg.VotePower[ "superadmin" ] = 2
+cfg.VotePower[ "superadmin" ] = 1
 
-cfg.Prefix = "[Clean Map Vote] " -- Chat prefix
-cfg.PrefixColor = Color( 0, 178, 238 ) -- Chat prefix color
+cfg.Prefix = "[Map Vote]] " -- Chat prefix
+cfg.PrefixColor = Color( 255, 0, 0 ) -- Chat prefix color
 
 cfg.HeadText = "Vote on the next map!" -- Top text
 cfg.HeadTextColor = Color( 255, 255, 255 )

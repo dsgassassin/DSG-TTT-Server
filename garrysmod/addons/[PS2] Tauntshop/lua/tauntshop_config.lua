@@ -28,17 +28,17 @@ if SERVER then include("sv_tauntshop.lua"); include("tauntshop_db.lua") else inc
 	donor sets whether the taunt should be avaible to everyone or only to certain groups
 */
 	
-TAUNTSHOP.RegisterTaunt("boomheadshot", "Boom Headshot", "taunts/taunt_boom.mp3", 1.7, 50000, true)
-TAUNTSHOP.RegisterTaunt("pulpfiction", "English, motherf***er, do you speak it!?", "taunts/taunt_english.mp3", 2.3, 50000, true)
+TAUNTSHOP.RegisterTaunt("boomheadshot", "Boom Headshot", "taunts/taunt_boom.mp3", 1.7, 275000, true)
+TAUNTSHOP.RegisterTaunt("pulpfiction", "English, motherf***er, do you speak it!?", "taunts/taunt_english.mp3", 2.3, 250000, true)
 TAUNTSHOP.RegisterTaunt("following", "Why are you following me?", "taunts/taunt_following.mp3", 2.6, 50000, true)
-TAUNTSHOP.RegisterTaunt("alleluja", "Alleluja", "taunts/taunt_holy.mp3", 1.8, 50000, true)
-TAUNTSHOP.RegisterTaunt("evillaugh", "Evil Laugh", "taunts/taunt_laugh.mp3", 3.7, 50000, true)
-TAUNTSHOP.RegisterTaunt("leeroy", "LEEEROOOOOY JEEEENKINS", "taunts/taunt_leeroy.mp3", 4.6, 50000, true)
-TAUNTSHOP.RegisterTaunt("nomnomnom", "NOM NOM NOM", "taunts/taunt_nomnomtf2.mp3", 2, 50000, true)
-TAUNTSHOP.RegisterTaunt("sparta", "THIS. IS. SPARTA", "taunts/taunt_sparta.mp3", 2.3, 50000, true)
-TAUNTSHOP.RegisterTaunt("bulletproof", "I am bulletproof", "taunts/taunt_tf2heavy.mp3", 3.2, 50000, true)
-TAUNTSHOP.RegisterTaunt("vader", "Power of the dark side", "taunts/taunt_vader.mp3", 4.6, 50000, true)
+TAUNTSHOP.RegisterTaunt("alleluja", "Alleluja", "taunts/taunt_holy.mp3", 1.8, 150000, true)
+TAUNTSHOP.RegisterTaunt("evillaugh", "Evil Laugh", "taunts/taunt_laugh.mp3", 3.7, 75000, true)
+TAUNTSHOP.RegisterTaunt("leeroy", "LEEEROOOOOY JEEEENKINS", "taunts/taunt_leeroy.mp3", 4.6, 200000, true)
+TAUNTSHOP.RegisterTaunt("nomnomnom", "NOM NOM NOM", "taunts/taunt_nomnomtf2.mp3", 2, 175000, true)
+TAUNTSHOP.RegisterTaunt("sparta", "THIS. IS. SPARTA", "taunts/taunt_sparta.mp3", 2.3, 225000, true)
+TAUNTSHOP.RegisterTaunt("bulletproof", "I am bulletproof", "taunts/taunt_tf2heavy.mp3", 3.2, 25000, true)
+TAUNTSHOP.RegisterTaunt("vader", "Power of the dark side", "taunts/taunt_vader.mp3", 4.6, 100000, true)
 TAUNTSHOP.RegisterTaunt("wickedsick", "Wicked SICK!", "taunts/taunt_wickedsick.mp3", 2.6, 50000, true)
-TAUNTSHOP.RegisterTaunt("weed", "Smoke weed everyday", "taunts/taunt_weed.mp3", 1.9, 50000, true)
-TAUNTSHOP.RegisterTaunt("wreckingball", "Wrecking Ball", "taunts/taunt_wreck.mp3", 4, 50000, true)
+TAUNTSHOP.RegisterTaunt("weed", "Smoke weed everyday", "taunts/taunt_weed.mp3", 1.9, 75000, true)
+TAUNTSHOP.RegisterTaunt("wreckingball", "Wrecking Ball", "taunts/taunt_wreck.mp3", 4, 125000, true)
  

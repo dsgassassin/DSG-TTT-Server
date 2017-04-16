@@ -14,10 +14,10 @@
 ]]--
 
 Damagelog:AddUser("superadmin", 4, true)
-Damagelog:AddUser("admin", 4, true)
-Damagelog:AddUser("operator", 1, false)
+Damagelog:AddUser("sadmin", 4, true)
+Damagelog:AddUser("admin", 4, false)
+Damagelog:AddUser("mod", 4, false)
 Damagelog:AddUser("user", 1, false)
-Damagelog:AddUser("guest", 1, false)
 
 -- The F-key
 
