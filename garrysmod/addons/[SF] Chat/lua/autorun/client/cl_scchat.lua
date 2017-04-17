@@ -1,6 +1,6 @@
 print( "Loading Chatbox..." )
 
-local ChatTitle = "Server Chat" -- Change this to your server name.
+local ChatTitle = "DiamondSwordGaming Chat" -- Change this to your server name.
 
 ClearChat = {}
 
